@@ -27,6 +27,7 @@ Tìm các tool open source phù hợp để đẩy nhanh việc thực hiện cr
 
 ### 3. Kết quả lưu vào mongodb như hình
 **Schema database**
+	
 	var roomSchema = new mongoose.Schema({
 	  title: String, // Loại phòng
 	  shortDescription: String, //Mô tả vắn tắt
