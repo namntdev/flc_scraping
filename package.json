@@ -1,0 +1,27 @@
+{
+  "name": "flc_scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namntdev/flc_scraping.git"
+  },
+  "keywords": [
+    "scrape"
+  ],
+  "author": "namnt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namntdev/flc_scraping/issues"
+  },
+  "homepage": "https://github.com/namntdev/flc_scraping#readme",
+  "dependencies": {
+    "crawler": "^1.2.1",
+    "mongoose": "^5.7.13",
+    "url": "^0.11.0"
+  }
+}
