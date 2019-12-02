@@ -20,12 +20,12 @@ Tìm các tool open source phù hợp để đẩy nhanh việc thực hiện cr
 * Code truy cập vào http://flcsamson.com.vn/vi/flc-luxury-hotel-samson.html rồi parse data html trả về
 * Lưu vào database mongodb
 
-### 4. Các bước build code và run
+### 3. Các bước build code và run
 * Cài đặt database mongoDB, đảm bảo file main.js cấu hình đúng thông tin database
 * Install các package cần thiết: npm install
 * Chạy chương trình chạy lệnh: node main.js
 
-### 3. Kết quả lưu vào mongodb như hình
+### 4. Kết quả lưu vào mongodb như hình
 **Schema database**
 ```nodejs	
 	var roomSchema = new mongoose.Schema({
