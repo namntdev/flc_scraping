@@ -26,6 +26,19 @@ Tìm các tool open source phù hợp để đẩy nhanh việc thực hiện cr
 * Chạy chương trình chạy lệnh: node main.js
 
 ### 3. Kết quả lưu vào mongodb như hình
+**Schema database**
+var roomSchema = new mongoose.Schema({
+  title: String, // Loại phòng
+  shortDescription: String, //Mô tả vắn tắt
+  url: String, // URL chi tiết
+  bed: String, // Giường ngủ
+  area: String, // Diện tích phòng
+  people: String, // Sức chứa
+  bathroom: String, // Phòng tắm
+  utility: [String] // tiện ích
+});
+
 **Result in database**
 
+<kbd><img title="Result in database" src="https://raw.githubusercontent.com/namntdev/flc_scraping/master/result1.png"></kbd><br/>
 <kbd><img title="Result in database" src="https://raw.githubusercontent.com/namntdev/flc_scraping/master/result.png"></kbd><br/>
